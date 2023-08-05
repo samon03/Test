@@ -1,0 +1,19 @@
+git --version
+git config --global user.name "Your Name"
+git config --global user.email "your email address"
+git config --list
+
+git init
+cd folder
+git status
+git add .
+git commit -m "first commit"
+git log --oneline
+git checkout <second commit's number> index.html
+git reset HEAD index.html (To discard the effect of the previous operation and restore index.html to its state at the end of the third commit)
+git checkout -- index.html
+git log --oneline (To check the log of the commits to your Git repository)
+git remote add origin <repository URL>
+git push -u origin master
+git clone <repository URL>
+
