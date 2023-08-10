@@ -1,0 +1,10 @@
+npm is all about code sharing and reuse
+
+> npm init react-app firstapp
+already created folder:
+> npm init react-app . 
+
+A browser cannot understand JSX syntax.
+An example of such a technology is a transpiler.
+
+A transpiler takes a piece of code and transforms it into some other code.
