@@ -21,4 +21,6 @@ index.css
 @tailwind components;
 @tailwind utilities;
 
+error then restart the vcode
+
 npm run start
