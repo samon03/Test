@@ -37,3 +37,7 @@ it is very safe to do it as in the following:
       git branch -m master
       git push -f origin master
 
+delete history
+Remove-Item -Recurse -Force .git
+
+
