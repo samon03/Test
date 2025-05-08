@@ -24,3 +24,20 @@ index.css
 error then restart the vcode
 
 npm run start
+
+icon: 
+npm install @fortawesome/react-fontawesome @fortawesome/free-brands-svg-icons
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookF, faGooglePlusG, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+<div className="flex gap-4">
+  <button className="border p-2 rounded-full text-blue-600">
+    <FontAwesomeIcon icon={faFacebookF} />
+  </button>
+  <button className="border p-2 rounded-full text-red-600">
+    <FontAwesomeIcon icon={faGooglePlusG} />
+  </button>
+  <button className="border p-2 rounded-full text-blue-800">
+    <FontAwesomeIcon icon={faLinkedinIn} />
+  </button>
+</div>
+
