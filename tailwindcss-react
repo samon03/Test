@@ -3,6 +3,7 @@ cd my-project
 npm install -D tailwindcss@3
 npx tailwindcss init
 npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
 
 tailwind.config.js
 /** @type {import('tailwindcss').Config} */
