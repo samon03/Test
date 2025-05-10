@@ -28,6 +28,10 @@ npm run start
 
 icon: 
 npm install @fortawesome/react-fontawesome @fortawesome/free-brands-svg-icons
+
+npm install --save @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
+
+<FontAwesomeIcon icon={faPhone} />
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faGooglePlusG, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 <div className="flex gap-4">
